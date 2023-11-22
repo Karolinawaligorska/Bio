@@ -1,0 +1,95 @@
+@font-face {
+  font-family: courierBold;
+  src: url(CourierPrime-Bold.ttf);
+}
+
+body {
+  margin-right: 288px;
+  margin-left: 288px;
+  color: #f6eac1;
+  background-color: #240d00;
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+}
+h1 {
+  font-family: courierBold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: courierBold;
+}
+
+.carousell {
+  width: 864px;
+  height: 350px;
+  display: flex;
+
+  gap: 24px;
+}
+
+.carousell > div {
+  width: 25%;
+  height: 350px;
+  background-color: #492300;
+  border-radius: 8px;
+  font-family: courierBold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousell_card > img {
+  width: 178px;
+  height: 294px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.savings_alert {
+  width: 866px;
+  height: 208px;
+  background-color: #fc772c;
+  color: #240d00;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign_up {
+  width: 866px;
+  height: 208px;
+  background-color: #94c3cf;
+  color: #240d00;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+#sign_up_button {
+  width: 167px;
+  height: 44px;
+  background-color: #fc772c;
+  color: #240d00;
+  border: none;
+  border-radius: 8px;
+}
+
+#sign_up_input {
+  width: 274px;
+  height: 44px;
+  border: none;
+}
