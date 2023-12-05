@@ -1,0 +1,76 @@
+body {
+  background-color: #240d00;
+}
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-color: #240d00;
+}
+
+.header_hero {
+  background-image: url(detail-hero.png);
+  width: 100vw;
+  height: 44vh;
+  position: absolute;
+}
+
+.header > .nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2vh;
+  padding-right: 3vh;
+  padding-left: 3vh;
+}
+.soc_media > img {
+  padding: 10px;
+}
+
+.header > .hero_movie {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 70px;
+  left: 50px;
+}
+
+.hero_movie > img {
+  width: 421px;
+  height: 594px;
+}
+
+.hero_movie > .movie_textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  margin-left: 40px;
+  width: 500px;
+}
+.hero_movie > .movie_textbox > button {
+  height: 44px;
+  width: 167px;
+  border-radius: 8px;
+  background-color: #fc772c;
+  color: black;
+}
+.hero_movie > .movie_textbox > p {
+  display: flex;
+  justify-content: center;
+}
+
+.storyline {
+  margin-right: 20vw;
+  margin-left: 20vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.storyline > img {
+  width: 421px;
+  height: 650px;
+}
