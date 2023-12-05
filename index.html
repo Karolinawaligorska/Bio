@@ -4,108 +4,117 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bangtail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="fonts-and-colors.css" type="text/css" />
     <nav></nav>
   </head>
   <body>
     <div id="hero">
       <div class="nav">
-        <img src="Logotype extended.png" />
+        <img src="assets/Logotype extended.png" />
         <div class="soc_media">
-          <img src="Hamburger.png" />
-          <img src="Vector.png" />
+          <img src="assets/Hamburger.png" />
+          <img src="assets/Vector.png" />
         </div>
       </div>
       <div class="hero_textbox">
         <div class="hero_title">
-          <h1>The Good, the Bad and the Ugly</h1>
+          <h1 class="heading-l">The Good, the Bad and the Ugly</h1>
         </div>
         <div class="hero_text">
-          <p>1966</p>
-          <p>Rewatch the Classic!</p>
+          <p class="heading-s">1966</p>
+          <p class="heading-s">Rewatch the Classic!</p>
         </div>
       </div>
     </div>
 
-    <h1>NOW SHOWING</h1>
+    <h1 class="heading-l">NOW SHOWING</h1>
     <div class="carousell">
       <div class="carousell_card">
-        <img src="card_1.jpg" alt="Call of the canyon by Gene Autry" />
-        <p>WICHITA - 1955</p>
+        <img src="assets/card_1.jpg" alt="Call of the canyon by Gene Autry" />
+        <p class="paragraph-strong">WICHITA - 1955</p>
       </div>
       <div class="carousell_card">
-        <img src="card_2.jpg" alt="Call of the canyon by Gene Autry" />
-        <p>IN OLD CAYENNE - 1941</p>
+        <img src="assets/card_2.jpg" alt="Call of the canyon by Gene Autry" />
+        <p class="paragraph-strong">IN OLD CAYENNE - 1941</p>
       </div>
       <div class="carousell_card">
-        <img src="card_3.jpg" alt="Call of the canyon by Gene Autry" />
-        <p>RIO BRAVO - 1959</p>
+        <img src="assets/card_3.jpg" alt="Call of the canyon by Gene Autry" />
+        <p class="paragraph-strong">RIO BRAVO - 1959</p>
       </div>
       <div class="carousell_card">
-        <img src="card_4.jpg" alt="Call of the canyon by Gene Autry" />
-        <p>HELL-FIRE AUSTIN - 1932</p>
+        <img src="assets/card_4.jpg" alt="Call of the canyon by Gene Autry" />
+        <p class="paragraph-strong">HELL-FIRE AUSTIN - 1932</p>
       </div>
     </div>
     <div class="savings_alert">
-      <h1>$ Yeehaw Savings Alert $</h1>
-      <p>Don't miss out on this limited opportunity!</p>
-      <p>Use code "CLINT" in the checkout for 25% of all movie tickets</p>
+      <h1 class="heading-l">$ Yeehaw Savings Alert $</h1>
+      <p class="heading-s">Don't miss out on this limited opportunity!</p>
+      <p class="heading-s">
+        🌵 Use code "CLINT" in the checkout for 25% off all movie tickets 🤠
+      </p>
     </div>
 
-    <h1>UPCOMING TITLES</h1>
+    <h1 class="heading-l">UPCOMING TITLES</h1>
     <div class="carousell">
       <div class="carousell_card">
-        <img src="card_5.jpg" alt="Call of the canyon by Gene Autry" />
-        <p>GOLD & THE GIRL - 1925</p>
+        <img src="assets/card_5.jpg" alt="Call of the canyon by Gene Autry" />
+        <p class="paragraph-strong">GOLD & THE GIRL - 1925</p>
       </div>
       <div class="carousell_card">
-        <img src="card_6.jpg" alt="Call of the canyon by Gene Autry" />
-        <p>GHOST CITY - 1932</p>
+        <img src="assets/card_6.jpg" alt="Call of the canyon by Gene Autry" />
+        <p class="paragraph-strong">GHOST CITY - 1932</p>
       </div>
       <div class="carousell_card">
-        <img src="card_7.jpg" alt="Call of the canyon by Gene Autry" />
-        <p>JESSE JAMES - 1939</p>
+        <img src="assets/card_7.jpg" alt="Call of the canyon by Gene Autry" />
+        <p class="paragraph-strong">JESSE JAMES - 1939</p>
       </div>
       <div class="carousell_card">
-        <img src="card_8.jpg" alt="Call of the canyon by Gene Autry" />
-        <p>THE COMANCHES - 1953</p>
+        <img src="assets/card_8.jpg" alt="Call of the canyon by Gene Autry" />
+        <p class="paragraph-strong">THE COMANCHES - 1953</p>
       </div>
     </div>
 
     <div class="sign_up">
-      <h1>Stay in the Loop!</h1>
-      <p>Saddle up for email updates and savings!</p>
+      <h1 class="heading-l">Stay in the Loop!</h1>
+      <p class="heading-s">🐴 Saddle up for email updates and savings! 📬</p>
       <form>
         <label for="email"></label>
         <input
+          class="paragraph-small"
           id="sign_up_input"
           type="email"
-          placeholder="Enter your email adress"
-        />
-        <button id="sign_up_button">SIGN UP NOW</button>
+          placeholder="Enter your email adress" />
+        <button class="heading-s" id="sign_up_button">SIGN UP NOW</button>
       </form>
     </div>
   </body>
   <footer>
     <div class="footer-left">
-      <div class="Find_us">
-        <p>Find us</p>
+      <div class="Find_us tiny">
+        <p class="tiny-strong">Find us</p>
         <p>The Bangtail Theater</p>
         <p>234 Western Street</p>
         <p>10999 Eastwood, NW</p>
         <p>USA</p>
       </div>
-      <div class="contact_us">
-        <p>Contact us</p>
+      <div class="contact_us tiny">
+        <p class="tiny-strong">Contact us</p>
         <p>info@bangtail.com</p>
         <p>+1 923 8374892311</p>
       </div>
       <div class="soc_media"></div>
     </div>
     <div class="footer-middle">
-      <img src="Logotype extended.png" />
+      <img src="assets/Logotype extended.png" />
+      <div class="tiny">The Bangtail Theater ©2023</div>
     </div>
-    <div class="footer-right">
+    <div class="footer-right paragraph-strong">
       <p>About us</p>
       <p>FAQ</p>
       <p>GDPR</p>

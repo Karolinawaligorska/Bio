@@ -3,13 +3,26 @@
   src: url(CourierPrime-Bold.ttf);
 }
 
+/* reset margins  */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 body {
   color: #f6eac1;
   background-color: #240d00;
 }
 
 #hero {
-  background-image: url(hero-img.png);
+  background-image: url(assets/hero-img.png);
   width: 100vw;
   height: 43.3vh;
   display: flex;

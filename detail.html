@@ -4,37 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bangatil detail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="styles2.css" />
+    <link rel="stylesheet" href="fonts-and-colors.css" type="text/css" />
+    <link rel="stylesheet" href="screenings.css" type="text/css" />
   </head>
   <body>
     <div class="header">
       <div class="header_hero"></div>
       <div class="nav">
-        <img src="Logotype extended.png" />
+        <img src="assets/Logotype extended.png" />
         <div class="soc_media">
-          <img src="Hamburger.png" />
-          <img src="Vector.png" />
+          <img src="assets/Hamburger.png" />
+          <img src="assets/Vector.png" />
         </div>
       </div>
       <div class="hero_movie">
-        <img src="hero_movie.png" />
+        <img src="assets/hero_movie.png" />
         <div class="movie_textbox">
-          <h1>The Good, the Bad and the Ugly</h1>
-          <h5>1966</h5>
-          <p>
+          <h1 class="heading-l">The Good, the Bad and the Ugly</h1>
+          <h5 class="heading-s">1966</h5>
+          <p class="paragraph-small">
             A bounty hunting scam joins two men in an uneasy alliance against a
             third in a race to find a fortune in gold buried in a remote
             cemetary
           </p>
-          <button>GET TICKETS</button>
+          <button class="heading-s">GET TICKETS</button>
         </div>
       </div>
     </div>
 
     <div class="storyline">
       <div class="storyline_textbox">
-        <h1>Storyline</h1>
-        <p>
+        <h1 class="heading-l">| Storyline</h1>
+        <p class="heading-s">
           Blondie, The Good (Clint Eastwood), is a professional gunslinger who
           is out trying to earn a few dollars. Angel Eyes, The Bad (Lee Van
           Cleef), is a hitman who always commits to a task and sees it
@@ -55,7 +62,108 @@
           —Jeremy Thomson
         </p>
       </div>
-      <img src="storyline.png" />
+      <img src="assets/storyline.png" />
+    </div>
+    <div class="upcoming-screenings">
+      <h1 class="heading-l">| Upcoming screenings</h1>
+
+      <!-- Fri: -->
+      <div class="screening">
+        <div>
+          <p class="paragraph-strong">Fri - 2024-01-05 - 18:00</p>
+          <p class="heading-m">Theater 1</p>
+        </div>
+        <div>
+          <button class="paragraph-strong">TICKETS</button>
+          <div class="availability availability-yellow"></div>
+          <p class="paragraph-small">Only a few seats left</p>
+        </div>
+        <div class="separator-line"></div>
+      </div>
+
+      <!-- Sat: -->
+      <div class="screening">
+        <div>
+          <p class="paragraph-strong">Sat - 2024-01-06 - 21.00</p>
+          <p class="heading-m">Theater 1</p>
+        </div>
+        <div>
+          <button class="paragraph-strong sold-out">TICKETS</button>
+          <div class="availability availability-red"></div>
+          <p class="paragraph-small">Sold out</p>
+        </div>
+        <div class="separator-line"></div>
+
+        <!-- Sun: -->
+        <div class="screening">
+          <div>
+            <p class="paragraph-strong">Sun - 2024-01-07 - 15.00</p>
+            <p class="heading-m">Theater 2</p>
+          </div>
+          <div>
+            <button class="paragraph-strong">TICKETS</button>
+            <div class="availability availability-green"></div>
+            <p class="paragraph-small">Seats available</p>
+          </div>
+          <div class="separator-line"></div>
+        </div>
+
+        <!-- Mon: -->
+        <div class="screening">
+          <div>
+            <p class="paragraph-strong">Mon - 2024-01-08 - 20.00</p>
+            <p class="heading-m">Theater 2</p>
+          </div>
+          <div>
+            <button class="paragraph-strong">TICKETS</button>
+            <div class="availability availability-green"></div>
+            <p class="paragraph-small">Seats available</p>
+          </div>
+          <div class="separator-line"></div>
+        </div>
+
+        <!-- Tue: -->
+        <div class="screening">
+          <div>
+            <p class="paragraph-strong">Tue - 2024-01-09 - 20:00</p>
+            <p class="heading-m">Theater 1</p>
+          </div>
+          <div>
+            <button class="paragraph-strong">TICKETS</button>
+            <div class="availability availability-yellow"></div>
+            <p class="paragraph-small">Only a few seats left</p>
+          </div>
+          <div class="separator-line"></div>
+        </div>
+
+        <!-- Wed: -->
+        <div class="screening">
+          <div>
+            <p class="paragraph-strong">Wed - 2024-01-10 - 19:00</p>
+            <p class="heading-m">Theater 1</p>
+          </div>
+          <div>
+            <button class="paragraph-strong">TICKETS</button>
+            <div class="availability availability-yellow"></div>
+            <p class="paragraph-small">Only a few seats left</p>
+          </div>
+          <div class="separator-line"></div>
+        </div>
+
+        <!-- Thu: -->
+        <div class="screening">
+          <div>
+            <p class="paragraph-strong">Thu - 2024-01-11 - 23.00</p>
+            <p class="heading-m">Theater 2</p>
+          </div>
+          <div>
+            <button class="paragraph-strong sold-out">TICKETS</button>
+            <div class="availability availability-red"></div>
+            <p class="paragraph-small">Sold out</p>
+          </div>
+          <div class="separator-line"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

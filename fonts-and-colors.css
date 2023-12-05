@@ -1,0 +1,110 @@
+:root {
+  --western-brown: #492300;
+  --western-beige: #f6eac1;
+  --western-orange: #fc772c;
+  --western-brown-dark: #240d00;
+  --western-blue: #94c3cf;
+  --western-light-grey: #e0e0e0;
+  --availability-yellow: #efba00;
+  --availability-green: #00d43c;
+  --availability-red: #ef0000;
+}
+.heading-xxl {
+  font-size: 5.5rem;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 98px;
+  text-decoration: none;
+  text-transform: none;
+}
+.heading-xl {
+  font-size: 3.625rem;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 68px;
+  text-decoration: none;
+  text-transform: none;
+}
+.heading-l {
+  font-size: 2.375rem;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 48px;
+  text-decoration: none;
+  text-transform: none;
+}
+.heading-m {
+  font-size: 1.5rem;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 34px;
+  text-decoration: none;
+  text-transform: none;
+}
+.heading-s {
+  font-size: 1.125rem;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 28px;
+  text-decoration: none;
+  text-transform: none;
+}
+.paragraph {
+  font-size: 1rem;
+  font-family: "Courier Prime", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: none;
+}
+.paragraph-strong {
+  font-size: 1rem;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: none;
+}
+.paragraph-small {
+  font-size: 0.875rem;
+  font-family: "Courier Prime", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: none;
+}
+.paragraph-small-strong {
+  font-size: 0.875rem;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: none;
+}
+.tiny {
+  font-size: 0.75rem;
+  font-family: "Courier Prime", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: none;
+}
+.tiny-strong {
+  font-size: 0.75rem;
+  font-family: "Courier Prime", serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: none;
+}
