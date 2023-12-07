@@ -28,7 +28,6 @@
   padding: 2rem 0rem;
   gap: 2rem;
   max-width: 54.125rem;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,19 +44,17 @@
   background-color: #e0e0e0;
   color: var(--western-brown-dark);
   border: none;
-  display: flex;
-  align-items: center;
+  outline: none;
   align-self: stretch;
-  padding: 0.25rem 4rem 0.25rem 0.5rem;
+  text-align: left;
+  padding: 0.25rem 2rem 0.25rem 0.5rem;
+  /* border-radius: 0.5rem; */
 }
 
 .sign_up .sign_up_form #sign_up_button {
   background-color: var(--western-orange);
   color: var(--western-brown-dark);
   border-radius: 0.5rem;
-  display: flex;
   padding: 0.25rem 1.5rem;
   border: none;
-  justify-content: center;
-  align-items: center;
 }

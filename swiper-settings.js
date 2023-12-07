@@ -9,6 +9,9 @@ const swiper = new Swiper(".swiperCarousell", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  keyboard: {
+    enabled: true,
+  },
   breakpoints: {
     // 640: {
     //   slidesPerView: 2,

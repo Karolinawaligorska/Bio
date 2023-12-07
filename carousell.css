@@ -27,13 +27,23 @@
 } */
 
 .swiperCarousell {
+  box-sizing: border-box;
+  height: 26rem;
+  /* overflow: visible; */
+}
+
+.carousell {
+  box-sizing: border-box;
   max-width: 54.125rem;
+  height: 22rem;
+
   /* height: 21.875rem; */
 }
 
 .carousell_card {
+  box-sizing: border-box;
   border-radius: 0.5rem;
-  background: var(--western-brown, #492300);
+  background: var(--western-brown);
   display: flex;
   max-width: 12.375rem;
   padding: 0.625rem;
@@ -52,4 +62,25 @@
 
 .carousell_card > p {
   text-align: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--western-beige);
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--western-beige);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--western-beige);
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-button-disabled {
+  bottom: 0;
+  top: auto;
+  scale: 0.75 0.5;
 }

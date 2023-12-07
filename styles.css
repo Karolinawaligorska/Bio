@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: courierBold;
   src: url(CourierPrime-Bold.ttf);
@@ -31,5 +30,11 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
+.now-showing,
+.upcoming-titles {
+  margin-bottom: -6rem;
+}

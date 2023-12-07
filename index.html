@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,9 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-     <!-- Link Swiper's CSS -->
+      rel="stylesheet" />
+    <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -20,15 +18,17 @@
     <script
       src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
       defer></script>
+
     <script src="swiper-settings.js" defer></script>
     <link rel="stylesheet" href="fonts-and-colors.css" type="text/css" />
     <link rel="stylesheet" href="styles.css" type="text/css" />
     <link rel="stylesheet" href="hero.css" type="text/css" />
-        <link rel="stylesheet" href="carousell.css" type="text/css" />
+    <link rel="stylesheet" href="carousell.css" type="text/css" />
     <link rel="stylesheet" href="alerts.css" type="text/css" />
     <link rel="stylesheet" href="footer.css" type="text/css" />
     <nav></nav>
   </head>
+
   <body>
     <div id="hero">
       <div class="nav">
@@ -40,58 +40,75 @@
       </div>
       <div class="hero_gradient">
         <div class="hero_info">
-          <div class="hero_textbox">
+          <a href="detail.html" class="hero_textbox">
             <h1 class="heading-l">The Good, the Bad and the Ugly</h1>
             <div class="hero_text">
               <p class="heading-s">1966</p>
               <p class="heading-s">Rewatch the Classic!</p>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
     <div class="content-container">
-      <h1 class="heading-l">NOW SHOWING</h1>
- <!-- Swiper carousell:-->
-    <div class="swiper swiperCarousell">
-      <div class="swiper-wrapper carousell">
-        <div class="swiper-slide carousell_card">
-          <img src="assets/card_1.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">WICHITA<br />1955</p>
+      <h1 class="heading-l now-showing">NOW SHOWING</h1>
+      <!-- Swiper carousell:-->
+      <div class="swiper swiperCarousell">
+        <div class="swiper-wrapper carousell">
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_1.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">WICHITA<br />1955</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_2.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">IN OLD CAYENNE<br />1941</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_3.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">RIO BRAVO<br />1959</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_4.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">HELL-FIRE AUSTIN<br />1932</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_5.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">GOLD & THE GIRL<br />1925</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_6.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">GHOST CITY<br />1932</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_7.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">JESSE JAMES<br />1939</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_8.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">THE COMANCHES<br />1953</p>
+          </div>
         </div>
-        <div class="swiper-slide carousell_card">
-          <img src="assets/card_2.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">IN OLD CAYENNE<br />1941</p>
-        </div>
-        <div class="swiper-slide carousell_card">
-          <img src="assets/card_3.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">RIO BRAVO<br />1959</p>
-        </div>
-        <div class="swiper-slide carousell_card">
-          <img src="assets/card_4.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">HELL-FIRE AUSTIN<br />1932</p>
-        </div>
-        <div class="swiper-slide carousell_card">
-          <img src="assets/card_5.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">GOLD & THE GIRL<br />1925</p>
-        </div>
-        <div class="swiper-slide carousell_card">
-          <img src="assets/card_6.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">GHOST CITY<br />1932</p>
-        </div>
-        <div class="swiper-slide carousell_card">
-          <img src="assets/card_7.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">JESSE JAMES<br />1939</p>
-        </div>
-        <div class="swiper-slide carousell_card">
-          <img src="assets/card_8.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">THE COMANCHES<br />1953</p>
-        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </div>
+
       <div class="savings_alert">
         <h1 class="heading-l">$ Yeehaw Savings Alert $</h1>
         <div class="alert_textbox">
@@ -102,38 +119,76 @@
         </div>
       </div>
 
-      <h1 class="heading-l">UPCOMING TITLES</h1>
-      <div class="carousell">
-        <div class="carousell_card">
-          <img src="assets/card_5.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">GOLD & THE GIRL - 1925</p>
+      <h1 class="heading-l upcoming-titles">UPCOMING TITLES</h1>
+      <!-- Swiper carousell:-->
+      <div class="swiper swiperCarousell">
+        <div class="swiper-wrapper carousell">
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_5.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">GOLD & THE GIRL<br />1925</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_6.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">GHOST CITY<br />1932</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_7.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">JESSE JAMES<br />1939</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_8.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">THE COMANCHES<br />1953</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_1.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">WICHITA<br />1955</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_2.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">IN OLD CAYENNE<br />1941</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_3.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">RIO BRAVO<br />1959</p>
+          </div>
+          <div class="swiper-slide carousell_card">
+            <img
+              src="assets/card_4.jpg"
+              alt="Call of the canyon by Gene Autry" />
+            <p class="paragraph-strong">HELL-FIRE AUSTIN<br />1932</p>
+          </div>
         </div>
-        <div class="carousell_card">
-          <img src="assets/card_6.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">GHOST CITY - 1932</p>
-        </div>
-        <div class="carousell_card">
-          <img src="assets/card_7.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">JESSE JAMES - 1939</p>
-        </div>
-        <div class="carousell_card">
-          <img src="assets/card_8.jpg" alt="Call of the canyon by Gene Autry" />
-          <p class="paragraph-strong">THE COMANCHES - 1953</p>
-        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
 
       <div class="sign_up">
         <h1 class="heading-l">Stay in the Loop!</h1>
         <p class="heading-s">🐴 Saddle up for email updates and savings! 📬</p>
         <form class="sign_up_form">
-          <label for="email"></label>
           <input
             class="paragraph-small"
             id="sign_up_input"
             type="email"
-            placeholder="Enter your email adress:"
-          />
-          <button class="heading-s" id="sign_up_button">SIGN UP</button>
+            placeholder="Enter email adress" />
+          <button type="button" class="heading-s" id="sign_up_button">
+            SIGN UP
+          </button>
         </form>
       </div>
     </div>
@@ -173,4 +228,3 @@
     </footer>
   </body>
 </html>
-
