@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: courierBold;
   src: url(CourierPrime-Bold.ttf);
@@ -23,46 +24,6 @@ body {
   background-color: #240d00;
 }
 
-#hero {
-  background-image: url(assets/hero-img.png);
-  width: 100vw;
-  height: 43.3vh;
-  display: flex;
-  flex-direction: column;
-  color: white;
-}
-#hero > .nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 2vh;
-  padding-right: 3vh;
-  padding-left: 3vh;
-}
-.soc_media > img {
-  padding: 10px;
-}
-
-#hero .hero_textbox {
-  display: flex;
-  flex-direction: column;
-  height: 42vh;
-  justify-content: flex-end;
-  margin-left: 5vw;
-}
-
-#hero .hero_textbox .hero_text {
-  display: flex;
-  flex-direction: row;
-  width: 50vw;
-  justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-#hero .hero_textbox .hero_title {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 50vw;
-}
 .carousell {
   width: 864px;
   height: 350px;
