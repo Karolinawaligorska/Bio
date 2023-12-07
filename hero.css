@@ -55,6 +55,8 @@
   padding: 0.5rem 1.5rem;
   height: 4.75rem;
   width: 42.8rem;
+  text-decoration: none;
+  color: var(--western-light-grey);
 }
 #hero .hero_textbox .heading-l {
   color: var(--western-light-grey);
