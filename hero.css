@@ -1,11 +1,9 @@
 #hero {
   background-image: url(assets/hero-img.png);
-  fill: url(assets/hero-img.png),
-    lightgray 0px -662.098px / 100% 184.053% no-repeat;
   height: 50.3125rem;
   display: flex;
   flex-direction: column;
-  color: white;
+  color: var(--western-light-grey);
   position: relative;
   margin: 0 auto;
   background-size: cover;
@@ -13,7 +11,7 @@
 }
 #hero .hero_gradient {
   position: absolute;
-  width: 90rem;
+  width: 100%;
   bottom: -1rem;
   top: 35rem;
   background: linear-gradient(to top, rgba(36, 13, 0, 1), rgba(36, 13, 0, 0));

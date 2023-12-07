@@ -8,15 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="styles2.css" />
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="fonts-and-colors.css" type="text/css" />
+    <link rel="stylesheet" href="detail-hero.css" type="text/css" />
+    <link rel="stylesheet" href="styles2.css" />
+    <link rel="stylesheet" href="detail-storyline.css" type="text/css" />
     <link rel="stylesheet" href="screenings.css" type="text/css" />
     <link rel="stylesheet" href="footer.css" type="text/css" />
   </head>
   <body>
-    <div class="header">
-      <div class="header_hero"></div>
+    <div id="hero">
       <div class="nav">
         <img src="assets/Logotype extended.png" />
         <div class="soc_media">
@@ -24,6 +26,7 @@
           <img src="assets/Vector.png" />
         </div>
       </div>
+      <div class="hero_gradient"></div>
       <div class="hero_movie">
         <img src="assets/hero_movie.png" />
         <div class="movie_textbox">
@@ -38,97 +41,45 @@
         </div>
       </div>
     </div>
-
-    <div class="storyline">
-      <div class="storyline_textbox">
-        <h1 class="heading-l">| Storyline</h1>
-        <p class="heading-s">
-          Blondie, The Good (Clint Eastwood), is a professional gunslinger who
-          is out trying to earn a few dollars. Angel Eyes, The Bad (Lee Van
-          Cleef), is a hitman who always commits to a task and sees it
-          through--as long as he's paid to do so. And Tuco, The Ugly (Eli
-          Wallach), is a wanted outlaw trying to take care of his own hide. Tuco
-          and Blondie share a partnership making money off of Tuco's bounty, but
-          when Blondie unties the partnership, Tuco tries to hunt down Blondie.
-          When Blondie and Tuco come across a horse carriage loaded with dead
-          bodies, they soon learn from the only survivor, Bill Carson (Antonio
-          Casale), that he and a few other men have buried a stash of gold in a
-          cemetery. Unfortunately, Carson dies and Tuco only finds out the name
-          of the cemetery, while Blondie finds out the name on the grave. Now
-          the two must keep each other alive in order to find the gold. Angel
-          Eyes (who had been looking for Bill Carson) discovers that Tuco and
-          Blondie met with Carson and knows they know where the gold is; now he
-          needs them to lead him to it. Now The Good, the Bad, and the Ugly must
-          all battle it out to get their hands on $200,000.00 worth of gold.
-          —Jeremy Thomson
-        </p>
-      </div>
-      <img src="assets/storyline.png" />
-    </div>
-
-    <!-- Umcoming screenings section: -->
-    <div class="upcoming-screenings">
-      <h1 class="heading-l">| Upcoming screenings</h1>
-
-      <!-- Fri: -->
-      <div class="screening">
-        <div>
-          <p class="paragraph-strong">Fri - 2024-01-05 - 18:00</p>
-          <p class="heading-m">Theater 1</p>
+    <div class="content_container">
+      <div class="storyline">
+        <div class="storyline_textbox">
+          <h1 class="heading-l">| Storyline</h1>
+          <p class="paragraph-small">
+            Blondie, The Good <span class="contrast">(Clint Eastwood)</span>, is
+            a professional gunslinger who is out trying to earn a few dollars.
+            Angel Eyes, The Bad <span class="contrast">(Lee Van Cleef)</span>,
+            is a hitman who always commits to a task and sees it through--as
+            long as he's paid to do so. And Tuco, The Ugly
+            <span class="contrast">(Eli Wallach)</span>, is a wanted outlaw
+            trying to take care of his own hide. Tuco and Blondie share a
+            partnership making money off of Tuco's bounty, but when Blondie
+            unties the partnership, Tuco tries to hunt down Blondie. When
+            Blondie and Tuco come across a horse carriage loaded with dead
+            bodies, they soon learn from the only survivor, Bill Carson
+            <span class="contrast">(Antonio Casale)</span>, that he and a few
+            other men have buried a stash of gold in a cemetery. Unfortunately,
+            Carson dies and Tuco only finds out the name of the cemetery, while
+            Blondie finds out the name on the grave. Now the two must keep each
+            other alive in order to find the gold. Angel Eyes (who had been
+            looking for Bill Carson) discovers that Tuco and Blondie met with
+            Carson and knows they know where the gold is; now he needs them to
+            lead him to it. Now The Good, the Bad, and the Ugly must all battle
+            it out to get their hands on $200,000.00 worth of gold. —Jeremy
+            Thomson
+          </p>
         </div>
-        <div>
-          <button class="paragraph-strong">TICKETS</button>
-          <div class="availability availability-yellow"></div>
-          <p class="paragraph-small">Only a few seats left</p>
-        </div>
-        <div class="separator-line"></div>
+        <img src="assets/storyline.png" />
       </div>
 
-      <!-- Sat: -->
-      <div class="screening">
-        <div>
-          <p class="paragraph-strong">Sat - 2024-01-06 - 21.00</p>
-          <p class="heading-m">Theater 1</p>
-        </div>
-        <div>
-          <button class="paragraph-strong sold-out">TICKETS</button>
-          <div class="availability availability-red"></div>
-          <p class="paragraph-small">Sold out</p>
-        </div>
-        <div class="separator-line"></div>
+      <!-- Umcoming screenings section: -->
+      <div class="upcoming-screenings">
+        <h1 class="heading-l">| Upcoming screenings</h1>
 
-        <!-- Sun: -->
+        <!-- Fri: -->
         <div class="screening">
           <div>
-            <p class="paragraph-strong">Sun - 2024-01-07 - 15.00</p>
-            <p class="heading-m">Theater 2</p>
-          </div>
-          <div>
-            <button class="paragraph-strong">TICKETS</button>
-            <div class="availability availability-green"></div>
-            <p class="paragraph-small">Seats available</p>
-          </div>
-          <div class="separator-line"></div>
-        </div>
-
-        <!-- Mon: -->
-        <div class="screening">
-          <div>
-            <p class="paragraph-strong">Mon - 2024-01-08 - 20.00</p>
-            <p class="heading-m">Theater 2</p>
-          </div>
-          <div>
-            <button class="paragraph-strong">TICKETS</button>
-            <div class="availability availability-green"></div>
-            <p class="paragraph-small">Seats available</p>
-          </div>
-          <div class="separator-line"></div>
-        </div>
-
-        <!-- Tue: -->
-        <div class="screening">
-          <div>
-            <p class="paragraph-strong">Tue - 2024-01-09 - 20:00</p>
+            <p class="paragraph-strong">Fri - 2024-01-05 - 18:00</p>
             <p class="heading-m">Theater 1</p>
           </div>
           <div>
@@ -139,25 +90,11 @@
           <div class="separator-line"></div>
         </div>
 
-        <!-- Wed: -->
+        <!-- Sat: -->
         <div class="screening">
           <div>
-            <p class="paragraph-strong">Wed - 2024-01-10 - 19:00</p>
+            <p class="paragraph-strong">Sat - 2024-01-06 - 21.00</p>
             <p class="heading-m">Theater 1</p>
-          </div>
-          <div>
-            <button class="paragraph-strong">TICKETS</button>
-            <div class="availability availability-yellow"></div>
-            <p class="paragraph-small">Only a few seats left</p>
-          </div>
-          <div class="separator-line"></div>
-        </div>
-
-        <!-- Thu: -->
-        <div class="screening">
-          <div>
-            <p class="paragraph-strong">Thu - 2024-01-11 - 23.00</p>
-            <p class="heading-m">Theater 2</p>
           </div>
           <div>
             <button class="paragraph-strong sold-out">TICKETS</button>
@@ -165,6 +102,76 @@
             <p class="paragraph-small">Sold out</p>
           </div>
           <div class="separator-line"></div>
+
+          <!-- Sun: -->
+          <div class="screening">
+            <div>
+              <p class="paragraph-strong">Sun - 2024-01-07 - 15.00</p>
+              <p class="heading-m">Theater 2</p>
+            </div>
+            <div>
+              <button class="paragraph-strong">TICKETS</button>
+              <div class="availability availability-green"></div>
+              <p class="paragraph-small">Seats available</p>
+            </div>
+            <div class="separator-line"></div>
+          </div>
+
+          <!-- Mon: -->
+          <div class="screening">
+            <div>
+              <p class="paragraph-strong">Mon - 2024-01-08 - 20.00</p>
+              <p class="heading-m">Theater 2</p>
+            </div>
+            <div>
+              <button class="paragraph-strong">TICKETS</button>
+              <div class="availability availability-green"></div>
+              <p class="paragraph-small">Seats available</p>
+            </div>
+            <div class="separator-line"></div>
+          </div>
+
+          <!-- Tue: -->
+          <div class="screening">
+            <div>
+              <p class="paragraph-strong">Tue - 2024-01-09 - 20:00</p>
+              <p class="heading-m">Theater 1</p>
+            </div>
+            <div>
+              <button class="paragraph-strong">TICKETS</button>
+              <div class="availability availability-yellow"></div>
+              <p class="paragraph-small">Only a few seats left</p>
+            </div>
+            <div class="separator-line"></div>
+          </div>
+
+          <!-- Wed: -->
+          <div class="screening">
+            <div>
+              <p class="paragraph-strong">Wed - 2024-01-10 - 19:00</p>
+              <p class="heading-m">Theater 1</p>
+            </div>
+            <div>
+              <button class="paragraph-strong">TICKETS</button>
+              <div class="availability availability-yellow"></div>
+              <p class="paragraph-small">Only a few seats left</p>
+            </div>
+            <div class="separator-line"></div>
+          </div>
+
+          <!-- Thu: -->
+          <div class="screening">
+            <div>
+              <p class="paragraph-strong">Thu - 2024-01-11 - 23.00</p>
+              <p class="heading-m">Theater 2</p>
+            </div>
+            <div>
+              <button class="paragraph-strong sold-out">TICKETS</button>
+              <div class="availability availability-red"></div>
+              <p class="paragraph-small">Sold out</p>
+            </div>
+            <div class="separator-line"></div>
+          </div>
         </div>
       </div>
     </div>
