@@ -1,0 +1,62 @@
+#hero {
+  background-image: url(assets/hero-img.png);
+  width: 90rem;
+  height: 50.3125rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+}
+#hero .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  padding: 0rem 4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#hero .nav .soc_media {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#hero .hero_info {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 4rem 0rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  position: absolute;
+  bottom: 0;
+  left: 4rem;
+}
+
+#hero .hero_textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: static;
+  background-color: rgba(36, 13, 0, 0.7);
+  padding: 0.5rem 1.5rem;
+  height: 4.75rem;
+  width: 42.8rem;
+}
+#hero .hero_textbox .heading-l {
+  color: var(--western-light-grey);
+  text-align: center;
+  position: static;
+}
+
+#hero .hero_textbox .hero_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  position: static;
+}
