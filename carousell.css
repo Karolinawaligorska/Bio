@@ -1,0 +1,55 @@
+/* .carousell {
+  width: 864px;
+  height: 350px;
+  display: flex;
+  gap: 24px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.carousell > div {
+  width: 25%;
+  height: 350px;
+  background-color: #492300;
+  border-radius: 8px;
+  font-family: courierBold;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousell_card > img {
+  width: 178px;
+  height: 294px;
+  border-radius: 8px;
+  margin-top: 10px;
+} */
+
+.swiperCarousell {
+  max-width: 54.125rem;
+  /* height: 21.875rem; */
+}
+
+.carousell_card {
+  border-radius: 0.5rem;
+  background: var(--western-brown, #492300);
+  display: flex;
+  max-width: 12.375rem;
+  padding: 0.625rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.carousell_card > img {
+  height: 265px;
+  /* width: 100%; */
+  object-fit: fill;
+  align-self: stretch;
+}
+
+.carousell_card > p {
+  text-align: center;
+}

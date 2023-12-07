@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: courierBold;
   src: url(CourierPrime-Bold.ttf);
@@ -32,56 +33,3 @@ body {
   margin: 0 auto;
 }
 
-.carousell {
-  max-width: 54.125rem;
-  height: 350px;
-  display: flex;
-  gap: 24px;
-  margin: 0 auto;
-}
-
-.carousell > div {
-  width: 25%;
-  height: 350px;
-  background-color: #492300;
-  border-radius: 8px;
-  font-family: courierBold;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.carousell_card > img {
-  width: 178px;
-  height: 294px;
-  border-radius: 8px;
-  margin-top: 10px;
-}
-
-/* 
-footer {
-  background-color: #94c3cf;
-  width: 100vw;
-  margin-top: 40vh;
-  color: black;
-  display: flex;
-  flex-direction: row;
-}
-
-.footer-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.footer-middle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer.right {
-  display: flex;
-  justify-content: flex-end;
-} */
