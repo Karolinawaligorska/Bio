@@ -32,6 +32,8 @@ body {
   margin: 0 auto;
   margin-top: 10rem;
   margin-bottom: 10rem;
+  padding: 0 4rem;
+  box-sizing: content-box;
 }
 
 .now-showing,

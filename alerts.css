@@ -18,6 +18,8 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  margin: 0 1rem;
+  text-align: center;
 }
 
 .sign_up {

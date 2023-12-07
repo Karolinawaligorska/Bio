@@ -43,6 +43,7 @@
   position: absolute;
   bottom: 0;
   left: 4rem;
+  margin-right: 4rem;
 }
 
 #hero .hero_textbox {
@@ -54,7 +55,7 @@
   background-color: rgba(36, 13, 0, 0.7);
   padding: 0.5rem 1.5rem;
   height: 4.75rem;
-  width: 42.8rem;
+  /* width: 42.8rem; */
   text-decoration: none;
   color: var(--western-light-grey);
 }
@@ -63,11 +64,27 @@
   text-align: center;
   position: static;
 }
+#hero .hero_textbox .heading-m {
+  color: var(--western-light-grey);
+  text-align: center;
+  position: static;
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  #hero .hero_textbox .heading-l {
+    display: none;
+  }
+  #hero .hero_textbox .heading-m {
+    display: block;
+  }
+}
 
 #hero .hero_textbox .hero_text {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-self: stretch;
+  /* align-self: stretch; */
+  width: 100%;
   position: static;
 }
