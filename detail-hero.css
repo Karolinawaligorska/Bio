@@ -1,0 +1,63 @@
+#hero {
+  background-image: url(assets/detail-hero.png);
+  height: 30.1875rem;
+  color: var(--western-light-grey);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+}
+
+#hero .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  padding: 0rem 4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#hero .nav .soc_media {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+}
+#hero .hero_gradient {
+  position: absolute;
+  width: 100%;
+  bottom: -0.1rem;
+  top: 19rem;
+  background: linear-gradient(to top, rgba(36, 13, 0, 1), rgba(36, 13, 0, 0));
+}
+
+#hero .hero_movie {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 3rem;
+  position: absolute;
+  top: 11.94rem;
+  left: 4rem;
+  max-width: 72.1rem;
+}
+
+#hero .hero_movie .movie_textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+#hero .hero_movie .movie_textbox > button {
+  display: flex;
+  padding: 0.5rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--western-orange);
+  border-radius: 0.5rem;
+}
