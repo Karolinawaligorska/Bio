@@ -1,11 +1,22 @@
 #hero {
   background-image: url(assets/hero-img.png);
-  width: 90rem;
+  fill: url(assets/hero-img.png),
+    lightgray 0px -662.098px / 100% 184.053% no-repeat;
   height: 50.3125rem;
   display: flex;
   flex-direction: column;
   color: white;
   position: relative;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: right;
+}
+#hero .hero_gradient {
+  position: absolute;
+  width: 90rem;
+  bottom: -1rem;
+  top: 35rem;
+  background: linear-gradient(to top, rgba(36, 13, 0, 1), rgba(36, 13, 0, 0));
 }
 #hero .nav {
   display: flex;
