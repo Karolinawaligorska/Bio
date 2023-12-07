@@ -12,8 +12,10 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+img {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -136,7 +138,7 @@ form {
   height: 44px;
   border: none;
 }
-
+/* 
 footer {
   background-color: #94c3cf;
   width: 100vw;
@@ -161,4 +163,4 @@ footer {
 footer.right {
   display: flex;
   justify-content: flex-end;
-}
+} */
