@@ -1,7 +1,10 @@
-
 @font-face {
   font-family: courierBold;
   src: url(CourierPrime-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /* reset margins  */
@@ -24,7 +27,7 @@ body {
   background-color: #240d00;
 }
 
-.carousell {
+/* .carousell {
   width: 864px;
   height: 350px;
   display: flex;
@@ -50,7 +53,7 @@ body {
   height: 294px;
   border-radius: 8px;
   margin-top: 10px;
-}
+} */
 
 .savings_alert {
   width: 866px;
