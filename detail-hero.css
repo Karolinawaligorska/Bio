@@ -65,6 +65,7 @@
     align-items: center;
     background-color: var(--western-orange);
     border-radius: 0.5rem;
+    border: none;
   }
 }
 /* --- Tablet --- */
@@ -155,6 +156,7 @@
     background-color: var(--western-orange);
     border-radius: 0.5rem;
     margin: 0 auto;
+    border: none;
   }
 }
 

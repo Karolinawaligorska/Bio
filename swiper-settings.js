@@ -1,6 +1,6 @@
 const swiper = new Swiper(".swiperCarousell", {
   slidesPerView: 2,
-  spaceBetween: 24,
+  spaceBetween: 12,
   loop: true,
   pagination: {
     el: ".swiper-pagination",
