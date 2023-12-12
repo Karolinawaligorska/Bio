@@ -102,19 +102,7 @@
     margin-top: 70rem;
   }
 }
-/* --- Between desktop and mobile for storyline--- */
-@media screen and (max-width: 650px) {
-  .content_container .storyline {
-    margin-top: 65rem;
-  }
-}
 
-/* --- Between desktop and mobile for storyline--- */
-@media screen and (max-width: 350px) {
-  .content_container .storyline {
-    margin-top: 25rem;
-  }
-}
 /* --- Mobile --- */
 @media screen and (max-width: 600px) {
   .content_container {
@@ -128,7 +116,7 @@
     margin-top: 10rem;
   }
   .content_container .storyline {
-    margin-top: 50rem;
+    margin-top: 55rem;
   }
 }
 /* --- Between desktop and mobile for storyline--- */
@@ -141,5 +129,11 @@
 @media screen and (max-width: 400px) {
   .content_container .storyline {
     margin-top: 40rem;
+  }
+}
+/* --- Between desktop and mobile for storyline--- */
+@media screen and (max-width: 350px) {
+  .content_container .storyline {
+    margin-top: 25rem;
   }
 }
