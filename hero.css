@@ -12,7 +12,7 @@
 #hero .hero_gradient {
   position: absolute;
   width: 100%;
-  bottom: -1rem;
+  bottom: -0.1rem;
   top: 35rem;
   background: linear-gradient(to top, rgba(36, 13, 0, 1), rgba(36, 13, 0, 0));
 }
