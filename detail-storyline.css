@@ -1,9 +1,14 @@
 /* --- Desktop --- */
 @media screen and (min-width: 850px) {
   .content_container {
-    margin-top: 30rem;
     padding-left: 4rem;
     padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 30rem;
   }
 
   .content_container .storyline {
@@ -43,6 +48,11 @@
   .content_container {
     padding-left: 4rem;
     padding-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
   }
   .content_container .storyline {
     display: flex;
@@ -69,7 +79,6 @@
     height: auto;
   }
 }
-
 /* --- Between desktop and mobile for storyline--- */
 @media screen and (max-width: 800px) {
   .content_container .storyline {
@@ -100,15 +109,37 @@
   }
 }
 
+/* --- Between desktop and mobile for storyline--- */
+@media screen and (max-width: 350px) {
+  .content_container .storyline {
+    margin-top: 25rem;
+  }
+}
 /* --- Mobile --- */
 @media screen and (max-width: 600px) {
-  .content_container .storyline {
-    margin-top: 60rem;
-  }
-
   .content_container {
-    margin-top: 30rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 10rem;
+  }
+  .content_container .storyline {
+    margin-top: 50rem;
+  }
+}
+/* --- Between desktop and mobile for storyline--- */
+@media screen and (max-width: 500px) {
+  .content_container .storyline {
+    margin-top: 45rem;
+  }
+}
+/* --- Between desktop and mobile for storyline--- */
+@media screen and (max-width: 400px) {
+  .content_container .storyline {
+    margin-top: 40rem;
   }
 }
