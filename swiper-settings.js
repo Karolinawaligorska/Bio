@@ -1,6 +1,7 @@
 const swiper = new Swiper(".swiperCarousell", {
   slidesPerView: 1,
   spaceBetween: 24,
+  loop: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -13,10 +14,10 @@ const swiper = new Swiper(".swiperCarousell", {
     enabled: true,
   },
   breakpoints: {
-    // 640: {
-    //   slidesPerView: 2,
-    //   spaceBetween: 20,
-    // },
+    500: {
+      slidesPerView: 2,
+      spaceBetween: 24,
+    },
     775: {
       slidesPerView: 3,
       spaceBetween: 24,
