@@ -41,17 +41,16 @@
 /* --- Tablet --- */
 @media screen and (max-width: 850px) {
   .content_container {
-    margin-top: 50rem;
     padding-left: 4rem;
     padding-right: 4rem;
   }
   .content_container .storyline {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     align-items: flex-start;
     margin: 0 auto;
-    max-width: 26.313rem;
+    margin-top: 84rem;
   }
   .content_container .storyline .storyline_textbox .heading-l {
     color: var(--western-beige);
@@ -65,10 +64,51 @@
     font-weight: 700;
   }
   .content_container .storyline > img {
-    max-width: 26.3125rem;
-    object-fit: cover;
+    max-width: 100%;
+    width: 70rem;
+    height: auto;
   }
 }
+
+/* --- Between desktop and mobile for storyline--- */
+@media screen and (max-width: 800px) {
+  .content_container .storyline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-top: 80rem;
+  }
+}
+/* --- Between desktop and mobile for storyline--- */
+@media screen and (max-width: 750px) {
+  .content_container .storyline {
+    margin-top: 75rem;
+  }
+}
+/* --- Between desktop and mobile for storyline--- */
+@media screen and (max-width: 700px) {
+  .content_container .storyline {
+    margin-top: 70rem;
+  }
+}
+/* --- Between desktop and mobile for storyline--- */
+@media screen and (max-width: 650px) {
+  .content_container .storyline {
+    margin-top: 65rem;
+  }
+}
+
 /* --- Mobile --- */
-@media screen and (max-width: 607px) {
+@media screen and (max-width: 600px) {
+  .content_container .storyline {
+    margin-top: 60rem;
+  }
+
+  .content_container {
+    margin-top: 30rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
