@@ -1,25 +1,12 @@
 .swiperCarousell {
   box-sizing: border-box;
   height: 26rem;
-  /* overflow: visible; */
 }
 
 .carousell {
   box-sizing: border-box;
   max-width: 54rem;
   height: 22rem;
-}
-
-@media screen and (max-width: 1000px) {
-  .carousell {
-    max-width: 38.625rem;
-  }
-}
-
-@media screen and (max-width: 775px) {
-  .carousell {
-    max-width: 26.25rem;
-  }
 }
 
 .carousell_card {
@@ -65,4 +52,31 @@
   bottom: 0;
   top: auto;
   scale: 0.75 0.5;
+}
+
+@media screen and (max-width: 1000px) {
+  .carousell {
+    max-width: 38.625rem;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .carousell {
+    max-width: 26.25rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .carousell {
+    max-width: 21.375rem;
+  }
+  .carousell_card {
+    max-width: 9.9375rem;
+  }
+  .carousell_card > img {
+    height: 250px;
+    /* width: 100%; */
+    object-fit: fill;
+    align-self: stretch;
+  }
 }
