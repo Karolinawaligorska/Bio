@@ -1,5 +1,3 @@
-/* --- General --- */
-
 /* --- Desktop --- */
 @media screen and (min-width: 850px) {
   #hero_mobile {
@@ -85,7 +83,7 @@
     position: relative;
     margin: 0 auto;
     background-size: cover;
-    background-position: center;
+    background-position: 60% center;
   }
 
   #hero_mobile .nav {
@@ -107,11 +105,11 @@
   #hero_mobile .hero_title {
     position: relative;
     display: flex;
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 1.5rem;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 0.75rem;
+    gap: 1rem;
     margin: 0 auto;
     background-color: rgba(36, 13, 0, 0.7);
     text-align: center;
@@ -125,7 +123,7 @@
     top: 19rem;
     background: linear-gradient(to top, rgba(36, 13, 0, 1), rgba(36, 13, 0, 0));
   }
-  #hero_mobile .hero_title .heading-m {
+  #hero_mobile .hero_title .heading-l {
     margin: 0 auto;
   }
   #hero_mobile .hero_movie {
@@ -133,20 +131,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 1.5rem;
-    max-width: 26.313rem;
-    margin: 0 auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
     margin-top: 14.7rem;
   }
-  #hero_mobile .hero_title .paragraph-small {
+
+  #hero_mobile .hero_movie > img {
+    max-width: 100%;
+    width: 70rem;
+    height: auto;
+  }
+  #hero_mobile .hero_title .paragraph {
     margin: 0 auto;
     text-align: center;
   }
 
-  .content_container {
-    margin-top: 35rem;
-  }
   #hero_mobile .hero_movie > button {
     display: flex;
     padding: 0.5rem 1.5rem;
@@ -154,5 +154,23 @@
     align-items: center;
     background-color: var(--western-orange);
     border-radius: 0.5rem;
+    margin: 0 auto;
+  }
+}
+
+/* --- Mobile --- */
+@media screen and (max-width: 600px) {
+  #hero_mobile .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+  }
+  #hero_mobile .nav .soc_media {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
   }
 }
