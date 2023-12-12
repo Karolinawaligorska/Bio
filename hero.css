@@ -9,6 +9,13 @@
   background-size: cover;
   background-position: right;
 }
+
+@media screen and (max-width: 600px) {
+  #hero {
+    background-position: 90% center;
+  }
+}
+
 #hero .hero_gradient {
   position: absolute;
   width: 100%;
@@ -16,6 +23,7 @@
   top: 25rem;
   background: linear-gradient(to top, rgba(36, 13, 0, 1), rgba(36, 13, 0, 0));
 }
+
 #hero .nav {
   display: flex;
   flex-direction: row;
@@ -25,6 +33,12 @@
   padding: 0rem 4rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  #hero .nav {
+    padding: 1.5rem;
+  }
 }
 
 #hero .nav .soc_media {
@@ -44,6 +58,13 @@
   bottom: 0;
   left: 4rem;
   margin-right: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+  #hero .hero_info {
+    left: 1.5rem;
+    margin-right: 1.5rem;
+  }
 }
 
 #hero .hero_textbox {
