@@ -1,9 +1,10 @@
+/* savings alert: */
 .savings_alert {
   background-color: var(--western-orange);
   color: var(--western-brown-dark);
   border-radius: 0.5rem;
   box-shadow: 0px 0px 64px 0px rgba(252, 119, 44, 0.5);
-  padding: 2rem 0rem;
+  padding: 2rem 1rem;
   gap: 2rem;
   max-width: 54.125rem;
 
@@ -18,16 +19,44 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  margin: 0 1rem;
+  /* margin: 0 1rem; */
   text-align: center;
 }
 
+@media screen and (max-width: 775px) {
+  .savings_alert {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .savings_alert > h1 {
+    /* Heading S */
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem;
+  }
+
+  .savings_alert .alert_textbox p.heading-s:first-child {
+    display: none;
+  }
+
+  .savings_alert .alert_textbox p.heading-s {
+    /* Paragraph small - Strong */
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+  }
+}
+
+/* email sign up:  */
 .sign_up {
   background-color: var(--western-blue);
   color: var(--western-brown-dark);
   border-radius: 0.5rem;
   box-shadow: 0px 0px 64px 0px rgba(148, 195, 207, 0.5);
-  padding: 2rem 0rem;
+  padding: 2rem 1rem;
   gap: 2rem;
   max-width: 54.125rem;
   display: flex;
@@ -59,4 +88,48 @@
   border-radius: 0.5rem;
   padding: 0.25rem 1.5rem;
   border: none;
+}
+
+@media screen and (max-width: 775px) {
+  .sign_up {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .sign_up > h1 {
+    /* Heading S */
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.75rem;
+  }
+
+  .sign_up > p.heading-s {
+    /* Paragraph small - Strong */
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  .sign_up > .sign_up_form > #sign_up_input {
+    /* Tiny */
+    font-family: Courier Prime;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem; /* 150% */
+    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  }
+
+  .sign_up > .sign_up_form > #sign_up_button {
+    /* Paragraph small - Strong */
+    font-family: Courier Prime;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem; /* 171.429% */
+    padding: 0.25rem 1rem;
+  }
 }
