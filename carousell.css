@@ -4,6 +4,7 @@
 }
 
 .carousell {
+  /* 4 kort, orig. bredd */
   box-sizing: border-box;
   max-width: 54rem;
   height: 22rem;
@@ -55,20 +56,23 @@
 }
 
 @media screen and (max-width: 1000px) {
+  /* 3 kort, orig. bredd */
   .carousell {
     max-width: 38.625rem;
   }
 }
 
 @media screen and (max-width: 775px) {
+  /* 2 kort, orig. bredd */
   .carousell {
     max-width: 26.25rem;
   }
 }
 
 @media screen and (max-width: 475px) {
+  /* 2 smala kort */
   .carousell {
-    max-width: 21.375rem;
+    max-width: 20.625rem;
   }
   .carousell_card {
     max-width: 9.9375rem;
@@ -78,5 +82,14 @@
     /* width: 100%; */
     object-fit: fill;
     align-self: stretch;
+  }
+  .swiper-button-prev,
+  .swiper-button-next,
+  .swiper-button-disabled {
+    display: none;
+  }
+
+  .swiper-pagination.swiper-pagination-bullets {
+    bottom: 1rem;
   }
 }

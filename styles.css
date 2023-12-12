@@ -22,6 +22,7 @@ body {
   color: var(--western-beige);
   background-color: var(--western-brown-dark);
 }
+
 .content-container {
   display: flex;
   max-width: 54.125rem;
@@ -36,15 +37,31 @@ body {
   box-sizing: content-box;
 }
 
+.now-showing,
+.upcoming-titles {
+  margin-bottom: -6rem;
+  /* color: var(--western-light-grey); */
+}
+
 @media screen and (max-width: 600px) {
   .content-container {
     margin-top: 5rem;
     margin-bottom: 5rem;
     padding: 0 1.5rem;
+    gap: 5rem;
+  }
+  .now-showing,
+  .upcoming-titles {
+    /* Heading M */
+    font-family: Courier Prime;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.125rem;
+    margin-bottom: -4rem;
   }
 }
 
-.now-showing,
-.upcoming-titles {
-  margin-bottom: -6rem;
+button:active {
+  scale: 1.05;
 }

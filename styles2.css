@@ -16,3 +16,7 @@ img {
 body {
   background-color: #240d00;
 }
+
+button:active {
+  scale: 1.05;
+}
